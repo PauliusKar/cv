@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mano Kontaktai</title>
+</head>
+
+<body>
+  <h1>Mano Kontaktai</h1>
+  <p>Mano adresas</p>
+  <p>861298255</p>
+  <p>manoemail@gmail.com</p>
+  <br>
+  <hr>
+  <br>
+  <form action="mailto:ppauliukas35@gmail.com" method="post" enctype="text/plain"> <!-- enctype leidzia paversti i normalu teksta user informacija-->
+    <label><em>Jūsų vardas:</em></label>
+    <input type="text" name="vardas" value=""> <!-- galima kazka parasyti-->
+    <!--<input type="color" name="" value=""> <!-- atsiranda spalvos pasirinkimas-->
+    <p><label>Ar norite prisijungti su email?</label>
+      <input type="checkbox" name="delemail" value=""> <!-- spausti varnele -->
+    </p>
+    <p>
+    <table>
+      <tr>
+        <td><label><em>Email:</em></label></td>
+        <td><input type="email" name="email" value=""></td>
+      </tr>
+      <tr>
+        <td><label><em>Slaptažodis:</em></label></td>
+        <td><input type="password" name="password" value=""></td>
+      </tr>
+      <tr>
+    </table>
+    <table>
+      <tr>
+        <td>Jūsų žinutė:</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><textarea name="message" rows="10" cols="30"></textarea></td>
+        <!--prideda dezute rasyti tekstui-->
+        <td></td>
+      </tr>
+    </table>
+    </p>
+    <p>
+      Ar norite pridėti failą?
+      <input type="checkbox" name="" value="">
+    </p>
+    <p>
+      <input type="file" name="" value=""> <!-- user gali prideti faila -->
+    </p>
+    <br><p>
+      <input type="submit" name="submitbutton"> <!-- submit mygtukas -->
+    </p>
+  </form>
+</body>
+
+</html>
